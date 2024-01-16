@@ -1,0 +1,7 @@
+.terraform
+tf-cloud-init
+tf-cloud-init.pub
+scripts/add-ssh-web-app.yaml
+instances/terraform.tfstate.backup
+instances/.terraform.lock.hcl
+instances/terraform.tfstate
