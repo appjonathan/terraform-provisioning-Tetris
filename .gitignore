@@ -1,7 +1,6 @@
 .terraform
 tf-cloud-init
 tf-cloud-init.pub
-terraform.tfstate
 scripts/add-ssh-web-app.yaml
 instances/terraform.tfstate.backup
 instances/.terraform.lock.hcl
