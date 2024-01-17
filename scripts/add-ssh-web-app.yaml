@@ -6,18 +6,6 @@ groups:
   - ubuntu: [root,sys]
   - hashicorp
 
-users:
-  - default
-  - name: terraform
-    gecos: terraform
-    primary_group: hashicorp
-    sudo: ALL=(ALL) NOPASSWD:ALL
-    groups: users, admin
-    ssh_import_id:
-    lock_passwd: false
-    ssh_authorized_keys:
-      -  # Paste your created SSH key here
-
 # Add users to the system. Users are added after groups are added.
 users:
   - default
